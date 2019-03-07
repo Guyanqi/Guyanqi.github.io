@@ -8,7 +8,7 @@
             "content": "Nice to meet you too!",
             "nextXianzhe": ["0003"]
         }, {
-            "content": "Sorry I'm not in the mood ... ",
+            "content": "Sorry I'm not in the mood",
             "nextXianzhe": ["0001"]
         }, {
             "content": "Yo？",
@@ -29,7 +29,7 @@
     }, {
         "id": "0003",
         "details": [
-            ["What do you wanna know?"]
+            ["Well", "What do you wanna know?"]
         ],
         "responses": [{
             "content": "What's your name？",
@@ -62,7 +62,7 @@
     }, {
         "id": "0006",
         "details": [
-            ["yeah", "Anyway you can't type ... you can only choose my settled question, haha"]
+            ["yeah", "Anyway you can't type, you can only choose settled questions, haha"]
         ],
         "responses": [{
             "content": "..."
