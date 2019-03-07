@@ -50,7 +50,7 @@
     }, {
         "id": "0005",
         "details": [
-            ["Yan Qi, or maybe just Yankee, that's easier"]
+            ["Yan Qi", "or maybe just Yankee, that's easier"]
         ],
         "responses": [{
             "content": "Your job？",
@@ -62,10 +62,10 @@
     }, {
         "id": "0006",
         "details": [
-            ["yeah", "Anyway you can't type ... you can just choose my settled question right, haha"]
+            ["yeah", "Anyway you can't type ... you can only choose my settled question, haha"]
         ],
         "responses": [{
-            "content": "……"
+            "content": "..."
         }, {
             "content": "Wow"
         }]
