@@ -88,7 +88,7 @@
             "content": "Yeah I think so~",
             "nextXianzhe": ["0010"]
         }, {
-            "content": "Alright ...",
+            "content": "Alright",
             "nextXianzhe": ["0010"]
         }]
     }, {
@@ -121,7 +121,7 @@
     }, {
         "id": "0011",
         "details": [
-            ["Maybe you can try Creed~"]
+            ["Maybe you can try Creed~", "The second one is pretty good"]
         ],
         "nextXianzhe": ["0013"]
     }, {
@@ -134,7 +134,7 @@
     }, {
         "id": "0013",
         "details": [
-            ["wanna see my painting?"]
+            ["wanna see my painting?","No kidding, they're good"]
         ],
         "responses": [{
             "content": "Sure~",
