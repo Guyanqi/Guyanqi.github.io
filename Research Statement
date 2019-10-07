@@ -1,0 +1,13 @@
+Research Statement
+
+Learning data representation which preserves privacy but also satify to certain utility constraints:
+A data owner wants to release some data for some task, like classification. However, there exists attackers that want to infer private information from the released data. In order to prevent privacy leakage, the data owner tries to find a mechanism that could map the original data into a data representation that preserves privacy but also not sacrifies too much utility on the task.
+To solve this problem, I propose a two-player sequential game, where an attacker tries to infer the private information from the representation while the defender, who is usually the data owner, tries to prevent the privacy leakage. The attacker and defender model are both neural networks.
+There're already some works on this kind of problems, like [Generated Adversarial Privacy(GAP)] which uses GAN model to perturbate private information, and .Applications like DeepPrivacy, which directly blurs human faces for identity.
+but the real problenm is to know how to converge the defender's neural network fast to the optimal setting, or whether there exists such optimal point. Here "optimal" could has two interpretations: (1) achieving maximum utility while preventing attacker's inference(2) lose minimum privacy while maintain certain utility.
+The mathematics beneath this problem is the two-player minimax problem, while my focus is on optimization, which means how to find the global(local) optimal as fast as possible. The input is the original data, the output of the game should be the defender's well trained neural network parameter space, which can convert the original data into a private representation for task, and prevent attacker's inference for private information.
+
+
+Compared to differential privacy:
+
+Obfuscation using GAN: url obfuscation
