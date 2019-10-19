@@ -1,6 +1,6 @@
 # Research Statement
 
-My research interest lies on privacy-preserving machine learning. Currently there're three main problems I want to solve, which are listed below.
+My research interest lies on privacy-preserving machine learning. Currently there're two main problems I want to solve, which are listed below.
 
 ## Learning private representation. 
 Data releasing contains risk of privacy leakage. It's useful to know if there's a obfuscation mechanism that could obfuscate the private features while maintains data's utility. Inspired by recent advancement of generative adversarial networks, learning private representation could be formed as a two-player privacy game: a defender that obfuscates data to minimize the risk of private attributes being inferred without losing too much utility, while an active adversary keeps trying to infer sensitive information from the obfuscated data released by defender. The defender and adversary are both assumed neural networks here.
